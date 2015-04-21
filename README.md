@@ -17,4 +17,4 @@ Thanks for your interest in this project.
 * Download the project files and open it with any recent version of Visual Studio.
 * The Visual Studio Community version is freely available from Microsoft at https://www.visualstudio.com/free
 * In its current state, the app will list the user's info but to have it backup the files you will need to edit the path in line 246 in the  *MainWindow.xaml.cs* file.
-* So say that in your company users are scripted to map to the S:\ drive for their Home directory, then change this to @"S:\" 
+* So say that in your company users are scripted to map to the S:\ drive for their Home directory, then change the path to @"S:\" 
