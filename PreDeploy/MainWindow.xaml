@@ -1,0 +1,44 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="BOTPre.MainWindow"
+        Title="Pre-Deployment Utility" Width="525" Height="283" ResizeMode="CanResizeWithGrip">
+    <Grid Background="#FF3E3E3E" Margin="0,0,0,-3">
+        <Button x:Name="getUser_bttn" Content="Fetch" HorizontalAlignment="Left" Margin="403,34,0,0" VerticalAlignment="Top" Width="62" Click="Button_Click" BorderBrush="#FF788776" Foreground="#FF324230" Height="23">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                    <GradientStop Color="#FFF3F3F3" Offset="0"/>
+                    <GradientStop Color="#FFEBEBEB" Offset="0.5"/>
+                    <GradientStop Color="#FFDDDDDD" Offset="0.5"/>
+                    <GradientStop Color="#FFD2E2BB" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Label Content="" HorizontalAlignment="Left" Margin="45,4,0,0" VerticalAlignment="Top" Width="120" FontSize="48" FontWeight="Bold" Foreground="#FF82BD67"/>
+        <Label Content="Get Info" HorizontalAlignment="Left" Height="35" Margin="317,27,0,0" VerticalAlignment="Top" Width="78" RenderTransformOrigin="0.989,0.644" FontSize="18" Foreground="#FFADD39C" Background="#00000000" FontFamily="Lato"/>
+        <Label Content="Pre-Deployment&#xA; Utility " HorizontalAlignment="Left" Height="70" Margin="94,26,0,0" VerticalAlignment="Top" Width="169" Foreground="#FFADD39C" FontSize="21.333" FontFamily="Lato" FontWeight="Bold"/>
+        <Label Content="v 1.0" HorizontalAlignment="Left" Height="35.667" Margin="162.334,59.333,0,0" VerticalAlignment="Top" Width="50.667" FontSize="16" Background="#00000000" Foreground="#FFADD39C" FontFamily="Lato"/>
+        <RichTextBox x:Name="uData_rTextBox" HorizontalAlignment="Left" Margin="45,138,0,60" Width="420" ScrollViewer.VerticalScrollBarVisibility="Auto" Foreground="#FFC4DAA9" Background="#FF3E3E3E" Height="auto">
+            <FlowDocument ColumnRuleWidth="2" Foreground="#FFC6EE8E"/>
+        </RichTextBox>
+        <Label Content="Backup Files" HorizontalAlignment="Left" Height="34" Margin="283,68,0,0" VerticalAlignment="Top" Width="115" RenderTransformOrigin="0.989,0.644" FontSize="18" Foreground="#FFADD39C" Background="#00000000" ToolTip="Copies Desktop, My Docs, Favorites, and .pst files to the U:\ drive" FontFamily="Lato"/>
+        <Button x:Name="getUserData_bttn" Content="Copy" HorizontalAlignment="Left" Margin="403,75,0,0" VerticalAlignment="Top" Width="62" BorderBrush="#FF788776" Foreground="#FF324230" Height="23" Click="getUserData_bttn_Click">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                    <GradientStop Color="#FFF3F3F3" Offset="0"/>
+                    <GradientStop Color="#FFEBEBEB" Offset="0.5"/>
+                    <GradientStop Color="#FFDDDDDD" Offset="0.5"/>
+                    <GradientStop Color="#FFD2E2BB" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Canvas x:Name="hd" HorizontalAlignment="Left" Height="60.78" UseLayoutRounding="False" VerticalAlignment="Top" Width="68.001" Margin="36,21.5,0,0">
+        	<Canvas x:Name="Layer_1" Height="62.335" Canvas.Left="9.001" Width="68" Canvas.Top="-5">
+        		<Path Data="F1M19.75,5.5C18.922,5.5 18.25,4.826 18.25,4 18.25,3.172 18.922,2.5 19.75,2.5 20.576,2.5 21.25,3.172 21.25,4 21.25,4.826 20.576,5.5 19.75,5.5 M20.5,0L3.5,0C1.57,0,-0.001,1.57,-0.001,3.5L-0.001,4.5C-0.001,6.43,1.57,8,3.5,8L20.5,8C22.43,8,24,6.43,24,4.5L24,3.5C24,1.57,22.43,0,20.5,0" Fill="#FF82BD67" Height="16.474" Canvas.Left="0" Canvas.Top="45.862" Width="49.42" Stretch="Fill"/>
+        		<Path Data="F1M0.5,0C0.224,0 0,0.225 0,0.5 0,0.775 0.224,1 0.5,1 0.775,1 1,0.775 1,0.5 1,0.225 0.775,0 0.5,0" Fill="#FF82BD67" Height="2.059" Canvas.Left="39.637" Canvas.Top="53.07" Width="2.058" Stretch="Fill"/>
+        		<Path Data="F1M4.974,8.177L7.474,5.688C7.67,5.492 7.988,5.494 8.182,5.69 8.376,5.885 8.376,6.202 8.18,6.397L6.57,8 16.328,8C16.602,8 16.828,8.224 16.828,8.5 16.828,8.777 16.602,9 16.328,9L6.506,9 8.18,10.666C8.376,10.862 8.376,11.178 8.182,11.373 8.084,11.471 7.956,11.521 7.828,11.521 7.7,11.521 7.572,11.473 7.474,11.375L4.974,8.886C4.88,8.792 4.828,8.664 4.828,8.531 4.828,8.399 4.88,8.271 4.974,8.177 M6.328,4L15.606,4 13.996,2.397C13.8,2.202 13.798,1.885 13.994,1.69 14.186,1.494 14.506,1.492 14.7,1.688L17.2,4.177C17.296,4.271 17.35,4.399 17.35,4.531 17.35,4.664 17.296,4.792 17.2,4.886L14.7,7.375C14.602,7.473 14.474,7.521 14.348,7.521 14.22,7.521 14.092,7.471 13.994,7.373 13.798,7.178 13.8,6.862 13.996,6.666L15.67,5 6.328,5C6.05,5 5.828,4.777 5.828,4.5 5.828,4.224 6.05,4 6.328,4 M19.828,13.001C20.886,13.001,21.85,13.384,22.618,13.999L21.208,3.344C20.956,1.438,19.316,0,17.392,0L5.256,0C3.338,0,1.696,1.434,1.44,3.335L0,14.028C0.776,13.395,1.75,13.001,2.828,13.001z" Fill="#FF82BD67" Height="28.886" Canvas.Left="1.384" Canvas.Top="17.033" Width="46.576" Stretch="Fill"/>
+        	</Canvas>
+        </Canvas>
+
+    </Grid>
+</Window>

@@ -1,0 +1,15 @@
+User Name: HSNYC
+Domain: HSNYC-PC
+Computer Name: HSNYC-PC
+Full Computer Name: HSNYC-PC
+IP Address: 192.168.1.5
+Resolution: {Width=1366, Height=768}
+Drive "Y:\" is: \\hserv\backups
+Drive "Z:\" is: \\hserv\serverfolders
+Printer 0: Snagit 9
+Printer 1: Send To OneNote 2013
+Printer 2: Microsoft XPS Document Writer
+Printer 3: Fax
+Printer 4: Canon MX880 series Printer
+Printer 5: Canon MX880 series FAX
+Printer 6: Adobe PDF

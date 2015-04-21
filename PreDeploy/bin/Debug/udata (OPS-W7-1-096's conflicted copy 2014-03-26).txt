@@ -1,0 +1,18 @@
+User Name: hsanchez
+Domain: BOT
+Computer Name: OPS-W7-1-096
+Full Computer Name: OPS-W7-1-096.BOT.LAN
+IP Address: 10.21.10.164
+Resolution: {Width=1680, Height=1050}
+Drive "F:\" is: \\ops2\sys
+Drive "O:\" is: \\testplt2\expedite
+Drive "P:\" is: \\testplt2\expedite
+Drive "U:\" is: \\ops2\users\hsanchez
+Drive "X:\" is: \\plt2\expedite
+Drive "Y:\" is: \\plt2\expedite
+Printer 0: Snagit 9| PortName: C:\ProgramData\TechSmith\Snagit 9\PrinterPortFile| DriverName: Snagit 9 Printer
+Printer 1: Send To OneNote 2010| PortName: nul:| DriverName: Send To Microsoft OneNote 2010 Driver
+Printer 2: OPS-SHARP4101| PortName: 10.25.4.204| DriverName: SHARP MX-4101N PCL6
+Printer 3: OPS-IT-HP3005| PortName: 10.25.4.154| DriverName: HP LaserJet P3005 PCL 6
+Printer 4: Microsoft XPS Document Writer| PortName: XPSPort:| DriverName: Microsoft XPS Document Writer
+Printer 5: Fax| PortName: SHRFAX:| DriverName: Microsoft Shared Fax Driver
